@@ -2,7 +2,7 @@
 Performing forecasting on univariate time series data. 
 
 ### Dataset
-The dataset describes the cumulative power produced by solar panels from 26th October 2011 to 27th July 2018. There are 2470 recorded observations which gives us the data for a period of six years and ten months. The unit of the observations is kWh. The source of the dataset is credited to Frank (https://www.kaggle.com/fvcoppen).
+The dataset describes the cumulative power produced by solar panels from 26th October 2011 to 27th July 2018. There are 2470 recorded observations which gives us the daily readings for a period of six years and ten months. The unit of the observations is kWh. The source of the dataset is credited to Frank (https://www.kaggle.com/fvcoppen).
 
 Below is a sample of the first 5 rows of data.
 
