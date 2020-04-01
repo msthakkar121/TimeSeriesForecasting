@@ -2,20 +2,19 @@
 Performing forecasting on univariate time series data. 
 
 ### Dataset
-The dataset describes the number of daily female births in California, USA in the year 1959. There are 365 recorded observations which gives us the data for a period of one year. The units are a count and there are 365 observations. The source of the dataset is credited to Newton (1988).
+The dataset describes the cumulative power produced by solar panels from 26th October 2011 to 27th July 2018. There are 2470 recorded observations which gives us the data for a period of six years and ten months. The unit of the observations is kWh. The source of the dataset is credited to Frank (https://www.kaggle.com/fvcoppen).
 
-Below is a sample of the first 5 rows of data including the header row.
+Below is a sample of the first 5 rows of data.
 
-|    Date    | Daily total female births in California, 1959 |
-|:----------:|:---------------------------------------------:|
-| 1959-01-01 |                       35                      |
-| 1959-01-02 |                       32                      |
-| 1959-01-03 |                       30                      |
-| 1959-01-04 |                       31                      |
-| 1959-01-05 |                       44                      |
+| 26/10/2011 |  0.1 |
+|:----------:|:----:|
+| 27/10/2011 | 10.2 |
+| 28/10/2011 | 20.2 |
+| 29/10/2011 | 29.6 |
+| 30/10/2011 | 34.2 |
 
 ### Task
-On the basis of univariate data provided, predict the number of births for the next six months, i.e. from 1960-01-01 to 1960-06-30.
+On the basis of univariate data provided, predict the power generation for the next three months, i.e. from 1st August 2018 to 31st October 2018.
 
 ### Approach 1 - Using ARIMA
 
