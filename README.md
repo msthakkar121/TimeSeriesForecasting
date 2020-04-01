@@ -6,12 +6,13 @@ The dataset describes the cumulative power produced by solar panels from 26th Oc
 
 Below is a sample of the first 5 rows of data.
 
-| 26/10/2011 |  0.1 |
-|:----------:|:----:|
-| 27/10/2011 | 10.2 |
-| 28/10/2011 | 20.2 |
-| 29/10/2011 | 29.6 |
-| 30/10/2011 | 34.2 |
+|    Date    | Reading |
+|:----------:|:-------:|
+| 26/10/2011 |   0.1   |
+| 27/10/2011 |   10.2  |
+| 28/10/2011 |   20.2  |
+| 29/10/2011 |   29.6  |
+| 30/10/2011 |   34.2  |
 
 ### Task
 On the basis of univariate data provided, predict the power generation for the next three months, i.e. from 1st August 2018 to 31st October 2018.
