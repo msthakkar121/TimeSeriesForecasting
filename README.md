@@ -1,2 +1,2 @@
 # TimeSeriesForecasting
-Performing forecasting on univeriate time series data. 
+Performing forecasting on univariate time series data. 
